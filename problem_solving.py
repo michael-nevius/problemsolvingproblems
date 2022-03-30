@@ -36,5 +36,13 @@ for number in range(0,101):
 
 print('Well was it worth it did you enjoy it?')
 
+word = input("Please input a word you would like to have indexed.: ")
+
+def final_word(word):
+    for number in range(len(word)):
+        print(number)
+        print(word[number])
+
+user_input = final_word(word)
 
     
