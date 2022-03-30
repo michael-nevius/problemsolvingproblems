@@ -17,16 +17,15 @@ def peanutbutterjellytime():
 
 user_input = peanutbutterjellytime()     
 
-
-print     
+print    
 for number in range(0,101):
     print(number)
-if (number%15 == 0):
-    print('peanut butter jelly')
-if (number%5 == 0):
-    print('jelly')
-if (number%3 == 0):
-    print('peanut')
+    if (number%15 == 0):
+        print('peanut butter jelly')
+    if (number%5 == 0):
+        print('jelly')
+    if (number%3 == 0):
+        print('peanut')
 
 print('Well was it worth it did you enjoy it?')
 
