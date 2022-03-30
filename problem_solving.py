@@ -1,8 +1,15 @@
-# reversed_word = input('Please select a word: ')
-# for index in range(len('') -1, -1 ,1):
-#     reversed_word += ''[0, -1]
-    
-# print(reversed_word)
+def reversed_word_tool():
+    word = input('Please type a word that you would like to see reversed: ')
+    for index in range(len(word) -1, -1 ,1):
+            print(word[index])
+
+    reversed_word = ''    
+    for index in range (len(word) -1, -1, -1):
+        reversed_word += word[index]
+
+    print(reversed_word)
+
+user_input = reversed_word_tool()
 
 
 def peanutbutterjellytime():
