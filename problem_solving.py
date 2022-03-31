@@ -44,5 +44,27 @@ def final_word(word):
         print(word[number])
 
 user_input = final_word(word)
+ingredients = ['pepperoni', 'anchovies', 'mushrooms', 'pineapple', 'green peppers', 'sausage']
+def search():
+    user_input = input(f'What ingredient would you like to add to your pizza?: ')
+    ingredient = ''
+    while user_input != ingredient:
+        for ingredient in ingredients:
 
-    
+            if user_input == ingredient:
+                print('That sounds like a good pizza!')
+                
+            else:
+                input(f'Umm how about no try again: ')    
+                 
+pizza_time = search()
+
+def Reverse(list):
+    new_lst = list[::-1]
+    return new_lst
+list = ['toyota', 'dodge', 'fiat', 'chevy', 'ford', 'porche', 'bicycle']     
+
+
+print(Reverse(list))
+
+
